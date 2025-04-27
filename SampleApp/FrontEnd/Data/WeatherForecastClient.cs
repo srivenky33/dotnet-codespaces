@@ -8,6 +8,7 @@ public class WeatherForecastClient
     public WeatherForecastClient(HttpClient httpClient, ILogger<WeatherForecastClient> logger)
     {
         _httpClient = httpClient;
+        //logging
         _logger = logger;
     }
 
