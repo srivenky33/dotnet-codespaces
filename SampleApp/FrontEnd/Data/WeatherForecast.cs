@@ -11,3 +11,5 @@ public class WeatherForecast
     public string? Summary { get; set; }
 }
 //fetch example
+
+//merge conflict
