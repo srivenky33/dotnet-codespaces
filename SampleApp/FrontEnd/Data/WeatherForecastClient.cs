@@ -11,7 +11,7 @@ public class WeatherForecastClient
         //logging
         _logger = logger;
     }
-
+    //logic--
     public async Task<WeatherForecast[]> GetForecastAsync(DateTime? startDate)
         => await _httpClient.GetFromJsonAsync<WeatherForecast[]>($"WeatherForecast?startDate={startDate}") ?? [];
 }
